@@ -1,0 +1,92 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+} 
+#gora{
+background-color: crimson;
+display: flex; 
+flex-direction: column;
+height: 100%;
+justify-content: center;
+}
+h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+}
+img{
+    height: 300px;
+    width: 1000px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#przyciski{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 1400px;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+#przycisk1,#przycisk2,#przycisk3,#przycisk4,#przycisk5{
+    height: 150px;
+    width: 250px;
+    background-color: crimson;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+#przycisk1:hover,#przycisk2:hover,#przycisk3:hover,#przycisk4:hover,#przycisk5:hover{
+    border: 2px solid white;}
+    h3,h4,p{
+    color: white;
+}
+#bloksrodek{
+    width:  100%;
+    height: 58%;
+    background-color: whitesmoke;
+    align-self: center;
+    display: flex;
+    flex-direction: column;  
+}
+#bloksrodek > p{
+    color: black;
+    justify-content: flex-start;
+    font-size: 30px;
+}
+#bloksrodek > h1{
+    color: black;
+    letter-spacing: 5px;
+    text-align: center;
+}
+#cos{
+    flex-direction: row;
+    display: flex;
+}
+#bloksrodek > ul{
+    font-size: 25px;
+}
+#obraz{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#obraz > img{
+    align-items: end;
+    justify-content: flex-end;
+    height: 250px;
+    width: 250px;
+}
+#tekst >p{
+    color: black;
+    font-size: 20px;
+    flex-direction: row-reverse;
+}
+#tekst{
+    display: flex;
+    flex-direction: row-reverse;
+}
